@@ -19,4 +19,4 @@ pip3 install -r requirements.txt
 # Retrieve additional information about each credit union
 python3 scrape_all.py
 ```
-You will now have a CSV file containing all the credit union data.
+You will now have a CSV file containing all the credit union data in `cu_data.csv`
