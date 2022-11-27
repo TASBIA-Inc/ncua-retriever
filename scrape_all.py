@@ -20,6 +20,7 @@ class Scraper:
         return [cu['charterNumber'] for cu in self.cu_directory['results']]
 
     def retrieve_cu_info(self, cu_id: int) -> str:
+        print(f'retrieving data for charter number: {cu_id}')
         cu_process = subprocess.run([SCRAPER_PATH, str(cu_id)], capture_output=True)
         return cu_process.stdout.decode('utf-8')
 
