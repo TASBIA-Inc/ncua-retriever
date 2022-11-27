@@ -14,7 +14,7 @@ pip3 install -r requirements.txt
 
 # Usage
 ```
-# Create the directory of credit unions
+# Create the directory of credit unions and write to file `directory.json`
 ./scrape-directory.sh
 # Retrieve additional information about each credit union
 python3 scrape_all.py
